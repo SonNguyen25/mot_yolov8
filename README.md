@@ -1,6 +1,13 @@
 # MOT_yolov8
-
+- Quick link to download dataset:
+  - https://motchallenge.net/data/MOT17/
+  - https://motchallenge.net/data/MOT20/
+  
 ### Setup
+- First, you need install python enviroment
+- Install Python (over 3.6): https://www.python.org/downloads/
+
+##### After that, install the required packages
 ```
 pip install -r requirements.txt
 pip install cython
