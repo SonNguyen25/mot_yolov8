@@ -36,7 +36,7 @@ python track.py --source ./data/MOT17/MOT17/train
 ```
 ### Run evaluation
 ```
-python TrackEval/scripts/run_mot_challenge.py --BENCHMARK MOT20 --SPLIT_TO_EVAL train --TRACKERS_TO_EVAL StrongSORT2 --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL True --NUM_PARALLEL_CORES 14 --SEQMAP_FOLDER ../data/trackers/mot_challenge/seqmaps --GT_FOLDER ../data/gt/mot_challenge/ --TRACKERS_FOLDER ../data/trackers/mot_challenge/
+python TrackEval/scripts/run_mot_challenge.py --BENCHMARK MOT17 --SPLIT_TO_EVAL train --TRACKERS_TO_EVAL StrongSORT --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL True --NUM_PARALLEL_CORES 14 --SEQMAP_FOLDER ../data/trackers/mot_challenge/seqmaps --GT_FOLDER ../data/gt/mot_challenge/ --TRACKERS_FOLDER ../data/trackers/mot_challenge/
 ```
 
 Output Video Save at "runs\track" dir
