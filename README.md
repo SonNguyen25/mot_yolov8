@@ -40,4 +40,4 @@ Go into directory 'eval using trackeval'
 python scripts/run_mot_challenge.py --BENCHMARK MOT17 --SPLIT_TO_EVAL train --TRACKERS_TO_EVAL StrongSORT --METRICS HOTA CLEAR Identity VACE --USE_PARALLEL True --SEQMAP_FOLDER ./data/trackers/mot_challenge/seqmaps --GT_FOLDER ./data/gt/mot_challenge/ --TRACKERS_FOLDER ./data/trackers/mot_challenge/
 ```
 
-Output Video Save at "runs\track" dir
+Output video save at "runs\track" dir
