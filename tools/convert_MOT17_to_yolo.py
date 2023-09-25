@@ -6,7 +6,7 @@ import glob
 import numpy as np
 import random
 
-DATA_ROOT = 'C:\\Users\\ssbao\\Documents\\intern-vinbigdata\\ComputerVision\\Project\\mot-yolov8\\data\\MOT17\\MOT17'
+DATA_ROOT = 'mot-yolov8\\data\\MOT17\\MOT17'
 
 image_wh_dict = {}
 
