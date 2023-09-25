@@ -32,7 +32,7 @@ gdown --id 1_oda78B4ZxJ5-LLp6X0fHqxpcs1U6feV
 mv ./working/best_latest_version.pt ./mot/weights/
 ```
 
-### Run code
+### Run tracking
 ```
 python track.py --source ./data/MOT17/MOT17/train 
 --reid-weights ./mot/weights/vit_base_patch16_224_TransReID.ckpt
